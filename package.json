@@ -1,0 +1,14 @@
+{
+  "name": "pku-video-helper",
+  "version": "1.0.3",
+  "private": true,
+  "description": "北大课程回放下载补丁：使用播放器实际媒体地址保存回放，兼容 PKU Art。",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check PKU-Video-Helper.user.js",
+    "test": "node --test tests/helper.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
